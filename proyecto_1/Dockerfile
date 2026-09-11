@@ -22,7 +22,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 #Copiamos todos los archivos
-COPY ..
+COPY . .
 
 #Documentación de puerto
 
